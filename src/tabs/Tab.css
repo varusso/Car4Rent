@@ -1,0 +1,13 @@
+.tab-container {
+  position: relative;
+  background-color: var(--darkred);
+
+  height: 90px;
+  min-width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.tabs {
+  width: 100%;
+}

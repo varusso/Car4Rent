@@ -1,0 +1,70 @@
+.display-container {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: calc(100vh - 190px);
+    min-width: 100vw;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+
+.form-display {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: var(--full-black);
+    box-sizing: border-box;
+   
+    align-items: left;
+}
+
+.car-infos {
+    width: 40%;
+    height: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+}
+
+.form-button {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#form-car-image {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-size: cover;
+   
+}
+
+.required {
+    color: red;
+    margin-right: 5px;
+}
+
+.thank-you-message {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;;
+}

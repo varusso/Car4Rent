@@ -1,0 +1,29 @@
+/**
+ * @Author: Alexa
+ * @Date:   2026-01-09 07:55:25
+ * @Last Modified by:   Alexa
+ * @Last Modified time: 2026-01-09 08:10:08
+ */
+#root {
+    max-width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+body {
+    background-color: #242424;
+
+    min-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App {
+    width: 100vw;
+    height: 1100vh;
+    display: flex;
+    flex-direction: column;
+}

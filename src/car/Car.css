@@ -1,0 +1,106 @@
+.display-container {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: calc(100vh - 190px);
+    min-width: 100vw;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.car-display {
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: var(--full-black);
+    box-sizing: border-box;
+}
+
+.big-car-image {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-size: cover;
+
+    padding: 10px;
+}
+
+.big-car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.on-car-details-container {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+   
+    text-align: left;
+    height: fit-content;
+    width: 49%;
+    padding: 10px;
+    
+
+}
+.on-car-details {
+    font-size: 18px;
+   
+    width: 80%;
+    padding: 10px;
+    background-color: var(--grey);
+
+}
+
+#on-car-text {
+    width: 20%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#car-name {
+    font-size: 30px;
+}
+
+
+.car-button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 15px;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
+
+.rent-button {
+    background-color: var(--darkred);
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.5s;
+}
+
+.rent-button:hover {
+    background-color: var(--red);
+    transform: scale(1.1);
+}
+
+.car-description {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 50px;
+    padding: 20px;
+}
