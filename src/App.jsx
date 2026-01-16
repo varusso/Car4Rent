@@ -3,8 +3,8 @@ import "./App.css";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import Navigation from "./navigation/navigation.jsx";
-import Tabs from "./tabs/Tab.jsx";
+import Navigation from "./navigation/Navigation.jsx";
+//import Tabs from "./tabs/Tab.jsx";
 import Display from "./display/Display.jsx";
 
 import Car from "./car/Car.jsx";
@@ -18,7 +18,7 @@ function App() {
             <div className="App">
                 {" "}
                 <Navigation />
-                <Tabs />
+                
                 <Routes>
                     <Route path="/" element={<Display />} />
                     <Route path="/cars/:id" element={<Car />} />

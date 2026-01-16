@@ -2,7 +2,7 @@
     position: relative;
     background-color: var(--red);
 
-    height: 100px;
+    height: 50px;
     min-width: 100vw;
     overflow: hidden;
     box-sizing: border-box;
@@ -14,11 +14,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 60px;
     height: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-left: 10px;
-    transition: all 0.1s ease;
+    transition: all 200ms ease;
 }
 .menu-icon:hover {
     transform: scale(1.1);
@@ -27,7 +27,7 @@
 .menu-bar {
     background-color: var(--black);
     width: 100%;
-    height: 10px;
+    height: 7px;
     margin: 0px;
     border-radius: 2px;
 }
